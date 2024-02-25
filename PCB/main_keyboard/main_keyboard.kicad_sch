@@ -3715,10 +3715,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c3134bc9-407b-4bce-b143-174cdeb52088)
   )
-  (text "Clock" (at 535.94 231.14 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d92b7d17-d6d4-4e06-8267-5645da9521a5)
-  )
   (text "Microcontroller" (at 387.35 214.63 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e4a8ac8f-4032-47b5-a4f1-15fca7f70db9)
@@ -4376,7 +4372,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 384.81 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b6698b8-4f71-43bf-817c-5d2fc937652d)
-    (property "Reference" "D117" (at 393.7 140.97 0)
+    (property "Reference" "D125" (at 393.7 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 393.7 143.51 0)
@@ -4395,7 +4391,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D117") (unit 1)
+          (reference "D125") (unit 1)
         )
       )
     )
@@ -4522,7 +4518,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 283.21 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c8c5c70-d3ac-476a-8f39-4e33fa65218b)
-    (property "Reference" "D107" (at 292.1 140.97 0)
+    (property "Reference" "D120" (at 292.1 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 292.1 143.51 0)
@@ -4541,7 +4537,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D107") (unit 1)
+          (reference "D120") (unit 1)
         )
       )
     )
@@ -4600,7 +4596,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 303.53 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f3cfcdd-bf81-43b0-8be7-64eb4f44843c)
-    (property "Reference" "D108" (at 312.42 106.68 0)
+    (property "Reference" "D105" (at 312.42 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 312.42 109.22 0)
@@ -4619,7 +4615,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D108") (unit 1)
+          (reference "D105") (unit 1)
         )
       )
     )
@@ -4628,7 +4624,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 506.73 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f6153db-4b21-474f-b58c-16b21ec48b8e)
-    (property "Reference" "D128" (at 515.62 106.68 0)
+    (property "Reference" "D115" (at 515.62 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 515.62 109.22 0)
@@ -4647,7 +4643,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D128") (unit 1)
+          (reference "D115") (unit 1)
         )
       )
     )
@@ -5518,7 +5514,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 323.85 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 235d3dd9-74e2-4e00-8737-1733c789c4ce)
-    (property "Reference" "D111" (at 332.74 140.97 0)
+    (property "Reference" "D122" (at 332.74 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 332.74 143.51 0)
@@ -5537,7 +5533,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D111") (unit 1)
+          (reference "D122") (unit 1)
         )
       )
     )
@@ -5750,7 +5746,7 @@
     (property "Value" "0.1u" (at 394.97 299.7136 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 392.43 298.45 0)
+    (property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder" (at 392.43 298.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 392.43 298.45 0)
@@ -5892,7 +5888,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 303.53 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3669041f-ae4c-4ecf-9db1-3037da24850b)
-    (property "Reference" "D109" (at 312.42 140.97 0)
+    (property "Reference" "D121" (at 312.42 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 312.42 143.51 0)
@@ -5911,7 +5907,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D109") (unit 1)
+          (reference "D121") (unit 1)
         )
       )
     )
@@ -5977,7 +5973,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 344.17 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 376f346e-345b-4dbe-8948-35215f412429)
-    (property "Reference" "D112" (at 353.06 106.68 0)
+    (property "Reference" "D107" (at 353.06 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 353.06 109.22 0)
@@ -5996,7 +5992,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D112") (unit 1)
+          (reference "D107") (unit 1)
         )
       )
     )
@@ -6496,7 +6492,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 527.05 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48ae4134-ca4d-43ee-8a5c-0ad34cd6fd71)
-    (property "Reference" "D131" (at 535.94 140.97 0)
+    (property "Reference" "D132" (at 535.94 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 535.94 143.51 0)
@@ -6515,7 +6511,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D131") (unit 1)
+          (reference "D132") (unit 1)
         )
       )
     )
@@ -6915,7 +6911,7 @@
     (property "Value" "0.1u" (at 402.59 299.7136 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 400.05 298.45 0)
+    (property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder" (at 400.05 298.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 400.05 298.45 0)
@@ -7046,7 +7042,7 @@
     (property "Value" "0.1u" (at 377.19 299.7136 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 374.65 298.45 0)
+    (property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder" (at 374.65 298.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 374.65 298.45 0)
@@ -7178,7 +7174,7 @@
     (property "Value" "0.1u" (at 386.08 299.7136 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 383.54 298.45 0)
+    (property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder" (at 383.54 298.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 383.54 298.45 0)
@@ -7370,10 +7366,10 @@
     (property "Reference" "C8" (at 453.39 320.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "c_small" (at 453.39 322.5863 0)
+    (property "Value" "22p" (at 453.39 322.5863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 450.85 321.31 0)
+    (property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder" (at 450.85 321.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 450.85 321.31 0)
@@ -7495,7 +7491,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 466.09 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6fecf96b-5a69-4e78-ac04-f9bc5afd711c)
-    (property "Reference" "D125" (at 474.98 140.97 0)
+    (property "Reference" "D129" (at 474.98 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 474.98 143.51 0)
@@ -7514,7 +7510,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D125") (unit 1)
+          (reference "D129") (unit 1)
         )
       )
     )
@@ -7523,7 +7519,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 486.41 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7398109e-9699-4bbe-a116-c5cc6e8b412d)
-    (property "Reference" "D127" (at 495.3 140.97 0)
+    (property "Reference" "D130" (at 495.3 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 495.3 143.51 0)
@@ -7542,7 +7538,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D127") (unit 1)
+          (reference "D130") (unit 1)
         )
       )
     )
@@ -7603,7 +7599,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 445.77 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76d38b15-55a0-4e98-bba2-60675c031306)
-    (property "Reference" "D123" (at 454.66 140.97 0)
+    (property "Reference" "D128" (at 454.66 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 454.66 143.51 0)
@@ -7622,7 +7618,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D123") (unit 1)
+          (reference "D128") (unit 1)
         )
       )
     )
@@ -7659,7 +7655,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 445.77 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a3f4a9d-04e9-43e1-99cd-4211edff9db3)
-    (property "Reference" "D122" (at 454.66 106.68 0)
+    (property "Reference" "D112" (at 454.66 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 454.66 109.22 0)
@@ -7678,7 +7674,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D122") (unit 1)
+          (reference "D112") (unit 1)
         )
       )
     )
@@ -7805,7 +7801,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 344.17 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cbc4f18-4198-4f2a-8827-90f031fd318d)
-    (property "Reference" "D113" (at 353.06 140.97 0)
+    (property "Reference" "D123" (at 353.06 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 353.06 143.51 0)
@@ -7824,7 +7820,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D113") (unit 1)
+          (reference "D123") (unit 1)
         )
       )
     )
@@ -7911,7 +7907,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 506.73 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81767e9d-4a17-4ba2-aab2-eb6ab2498a14)
-    (property "Reference" "D129" (at 515.62 140.97 0)
+    (property "Reference" "D131" (at 515.62 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 515.62 143.51 0)
@@ -7930,7 +7926,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D129") (unit 1)
+          (reference "D131") (unit 1)
         )
       )
     )
@@ -7967,7 +7963,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 486.41 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83edf2e4-2f55-456c-8706-7bbe9774172b)
-    (property "Reference" "D126" (at 495.3 106.68 0)
+    (property "Reference" "D114" (at 495.3 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 495.3 109.22 0)
@@ -7986,7 +7982,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D126") (unit 1)
+          (reference "D114") (unit 1)
         )
       )
     )
@@ -8224,7 +8220,7 @@
     (property "Value" "4.7u" (at 410.21 299.7136 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 407.67 298.45 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" (at 407.67 298.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 407.67 298.45 0)
@@ -8360,7 +8356,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 242.57 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90920882-c2f6-4b0b-88ae-62e0f1eab6a3)
-    (property "Reference" "D103" (at 251.46 140.97 0)
+    (property "Reference" "D118" (at 251.46 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 251.46 143.51 0)
@@ -8379,7 +8375,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D103") (unit 1)
+          (reference "D118") (unit 1)
         )
       )
     )
@@ -8474,7 +8470,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 262.89 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a2c2410-b1ae-4565-a0da-42aa05005cfa)
-    (property "Reference" "D105" (at 271.78 140.97 0)
+    (property "Reference" "D119" (at 271.78 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 271.78 143.51 0)
@@ -8493,7 +8489,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D105") (unit 1)
+          (reference "D119") (unit 1)
         )
       )
     )
@@ -8620,7 +8616,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 384.81 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f484b7c-9a4d-4e07-90c5-63758e90f6c2)
-    (property "Reference" "D116" (at 393.7 106.68 0)
+    (property "Reference" "D109" (at 393.7 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 393.7 109.22 0)
@@ -8639,7 +8635,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D116") (unit 1)
+          (reference "D109") (unit 1)
         )
       )
     )
@@ -8648,7 +8644,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 323.85 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f68e5ac-d899-4fa7-ba37-630eed8d9216)
-    (property "Reference" "D110" (at 332.74 106.68 0)
+    (property "Reference" "D106" (at 332.74 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 332.74 109.22 0)
@@ -8667,7 +8663,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D110") (unit 1)
+          (reference "D106") (unit 1)
         )
       )
     )
@@ -8702,7 +8698,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 425.45 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fbdcb0c-c58a-40d6-adc6-95af16bf2237)
-    (property "Reference" "D120" (at 434.34 106.68 0)
+    (property "Reference" "D111" (at 434.34 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 434.34 109.22 0)
@@ -8721,7 +8717,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D120") (unit 1)
+          (reference "D111") (unit 1)
         )
       )
     )
@@ -8993,7 +8989,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 527.05 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1356653-e9f6-4666-b7e9-fe2964f20d74)
-    (property "Reference" "D130" (at 535.94 106.68 0)
+    (property "Reference" "D116" (at 535.94 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 535.94 109.22 0)
@@ -9012,7 +9008,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D130") (unit 1)
+          (reference "D116") (unit 1)
         )
       )
     )
@@ -9047,7 +9043,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 283.21 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b42bf0b3-8504-4d47-aa42-615a474ea944)
-    (property "Reference" "D106" (at 292.1 106.68 0)
+    (property "Reference" "D104" (at 292.1 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 292.1 109.22 0)
@@ -9066,7 +9062,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D106") (unit 1)
+          (reference "D104") (unit 1)
         )
       )
     )
@@ -9104,10 +9100,10 @@
     (property "Reference" "C7" (at 443.23 320.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "c_small" (at 443.23 322.5863 0)
+    (property "Value" "22p" (at 443.23 322.5863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 440.69 321.31 0)
+    (property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder" (at 440.69 321.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 440.69 321.31 0)
@@ -9264,7 +9260,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 262.89 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba49a695-6ec7-4578-8899-7834cb9378f8)
-    (property "Reference" "D104" (at 271.78 106.68 0)
+    (property "Reference" "D103" (at 271.78 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 271.78 109.22 0)
@@ -9283,7 +9279,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D104") (unit 1)
+          (reference "D103") (unit 1)
         )
       )
     )
@@ -9384,7 +9380,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 547.37 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbc90a35-90f3-4b8f-8da2-3b8e096f3c4a)
-    (property "Reference" "D132" (at 556.26 106.68 0)
+    (property "Reference" "D117" (at 556.26 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 556.26 109.22 0)
@@ -9403,7 +9399,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D132") (unit 1)
+          (reference "D117") (unit 1)
         )
       )
     )
@@ -9560,7 +9556,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 405.13 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1641dfb-2a7a-43d4-9496-190cd7fa8493)
-    (property "Reference" "D119" (at 414.02 140.97 0)
+    (property "Reference" "D126" (at 414.02 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 414.02 143.51 0)
@@ -9579,7 +9575,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D119") (unit 1)
+          (reference "D126") (unit 1)
         )
       )
     )
@@ -9640,7 +9636,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 364.49 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c39f89fb-8b6f-4447-b6e1-60a7ada20e7c)
-    (property "Reference" "D115" (at 373.38 140.97 0)
+    (property "Reference" "D124" (at 373.38 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 373.38 143.51 0)
@@ -9659,7 +9655,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D115") (unit 1)
+          (reference "D124") (unit 1)
         )
       )
     )
@@ -10016,7 +10012,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 364.49 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc9fc593-d06c-451c-a6cf-d739ce973696)
-    (property "Reference" "D114" (at 373.38 106.68 0)
+    (property "Reference" "D108" (at 373.38 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 373.38 109.22 0)
@@ -10035,7 +10031,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D114") (unit 1)
+          (reference "D108") (unit 1)
         )
       )
     )
@@ -10295,7 +10291,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 466.09 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e49585fc-57d6-41d9-be8e-384466940051)
-    (property "Reference" "D124" (at 474.98 106.68 0)
+    (property "Reference" "D113" (at 474.98 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 474.98 109.22 0)
@@ -10314,7 +10310,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D124") (unit 1)
+          (reference "D113") (unit 1)
         )
       )
     )
@@ -10329,7 +10325,7 @@
     (property "Value" "Keyswitch" (at 196.85 203.2 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_Plated_1.00u" (at 196.85 208.28 0)
+    (property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_Plated_1.50u" (at 196.85 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 196.85 208.28 0)
@@ -10535,7 +10531,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 425.45 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee77c87b-2472-4ba1-9585-0b6c42a28b5b)
-    (property "Reference" "D121" (at 434.34 140.97 0)
+    (property "Reference" "D127" (at 434.34 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 434.34 143.51 0)
@@ -10554,7 +10550,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D121") (unit 1)
+          (reference "D127") (unit 1)
         )
       )
     )
@@ -10589,7 +10585,7 @@
   (symbol (lib_id "ScottoKeebs:LED_SK6812MINI") (at 405.13 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f19b5eef-6a05-437d-a2de-ddebf00a9c5f)
-    (property "Reference" "D118" (at 414.02 106.68 0)
+    (property "Reference" "D110" (at 414.02 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_SK6812MINI" (at 414.02 109.22 0)
@@ -10608,7 +10604,7 @@
     (instances
       (project "main_keyboard"
         (path "/c0b46059-6d21-4efb-9627-ca2080ee10c9"
-          (reference "D118") (unit 1)
+          (reference "D110") (unit 1)
         )
       )
     )
